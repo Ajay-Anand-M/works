@@ -1,0 +1,45 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+body {
+    background-color: black;
+    color: white;
+    background-image:url("2018 champs.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+/* Div if needed
+.myDiv {
+    background-color: black;
+    opacity: 0.5;
+      color: white; 
+    text-align: left;
+  }
+*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.9;
+}
+ p {
+    background-color:black;
+    opacity: 0.5;
+    color: white;
+ 
+}
+a:link {
+    
+    background-color: black;
+  color: white;
+  padding: 3px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover {
+    background-color: red;
+  }

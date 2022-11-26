@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+    color: red;
+}
+
+body {
+   
+    background-color: black;
+    color: white;
+   
+}
+#p1 {
+    text-align: center;
+}
+h2 {
+    color: blue;
+}
+
+.basic {
+    padding-left:3px;
+    margin: 30px;
+}
+.skills {
+    padding-left:3px;
+    margin: 30px;
+}
+.achievements{
+    padding-left:3px;
+    margin: 30px;
+}
+.edu {
+    padding-left:1px;
+    margin: 1px;
+     
+}
+.obj {
+    padding-left:1px;
+    margin: 1px;
+    
+}
+aside {
+    width: 44%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    
+    
+}
+img {
+    border: 3px solid yellow;
+    padding-right: px;
+}
+.photo {
+    width: 40%;
+    padding-left: 30px;
+    margin-left: 15px;
+    float: center;
+}

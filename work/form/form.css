@@ -1,0 +1,31 @@
+.main {
+    padding: 2px;
+    margin-left: 15px;
+}
+body {
+    width: 40%;
+    border: 2px solid red;
+}
+input {
+    margin-left: 16px;
+    
+}
+h2 {
+    text-align: center;
+    color: blueviolet;
+}
+select {
+    margin-left: 15px;
+}
+p {
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: -15px;
+}
+option {
+    width: 200px;
+    text-align: center;
+}
+textarea {
+    margin-left: 15px;
+}

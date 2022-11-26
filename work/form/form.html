@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <h2>SAMPLE FORM</h2>
+    <form>
+        
+        <label class="main" for="fname"><b>First name :</b></label>
+        <input type="text" id="fname" autofocus><br>
+        <label class="main" for="lname"><b>Last name :&nbsp;</b></label>
+        <input type="text" id="lname"><br>
+        <label class="main" for="adrs" ><b>Address :</b></label><br>
+        <!-- <input id="adrs" type="text" ><br> -->
+        <textarea id="adrs" rows="5" cols="25"></textarea><br>
+        <label class="main"><b>Gender:</b></label>
+        <input  type="radio" id="male" value="Male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" value="Female" name="gender">
+        <label for="female">Female</label><br>
+        <label class="main" for="dob"><b>Date Of Birth :</b></label><br>
+        <input type="date" id="dob"><br>
+        <label class="main" for="num"><b>Phone Number :</b></label><br>
+        <input type="number" id="num"> <br>
+        <label class="main" for="email"><b>Email :</b></label><br>
+        <input type="email" id="email"><br>
+        <label class="main" for="eqa"><b>Education Qualification :</b><br>
+        </label>
+        
+        <select id="equ" multiple >
+            <option>SSLC</option>
+            <option>Higher Secondary</option>
+            <option>Degree</option>
+            <option>Diploma</option>
+
+        </select>
+        <p>Hold down the Ctrl (windows) /
+            Command (Mac) button to select multiple options.<br></p>
+        <br>
+        <label class="main" for="exp"><b>Experience :</b></label><br>
+        <select id="exp" name="exp">
+            <option value="1yr">1 Year</option>
+            <option value="2yr">2 Years </option>
+            <option value="3yr">3 Years</option>
+            <option value="mtn3">Morethan 3 Years</option>
+        </select><br>
+
+        <br>
+        <input type="submit" value="Click Here To Submit">
+        <input type="reset"><br>
+    </form>
+</body>
+
+</html>
